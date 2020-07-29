@@ -12,11 +12,11 @@ public class Main {
     assert Shape.class.getFields().length == 0: "Test case failed: one or more instance variables are not private";
 
     //Tests calculateAngle()
-    assert triangle.calculateAngle() == 60: "calculateAngle() failed for sides = 3";
+    assert triangle.calculateAngle() == 60.0: "calculateAngle() failed for sides = 3";
 
-    assert square.calculateAngle() == 90: "calculateAngle() failed for sides = 4";
+    assert square.calculateAngle() == 90.0: "calculateAngle() failed for sides = 4";
 
-    assert hexagon.calculateAngle() == 120: "calculateAngle() failed for sides = 6";
+    assert hexagon.calculateAngle() == 120.0: "calculateAngle() failed for sides = 6";
 
     assert hecatontagon.calculateAngle() == 176.4: "calculateAngle() failed for sides = 100";
 
