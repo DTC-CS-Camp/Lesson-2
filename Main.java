@@ -1,3 +1,6 @@
+import java.io.*;
+import java.util.*;
+
 public class Main {
   public static void main(String[] args) {
   
@@ -19,6 +22,12 @@ public class Main {
 
 
 
+    
+    
+  // put problem 3 Scanner work below: 
+    
+    
+    
 
 
 
